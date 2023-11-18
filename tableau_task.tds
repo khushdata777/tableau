@@ -1,0 +1,356 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20233.23.1017.0948                               -->
+<datasource formatted-name='federated.020jwjx0e3hg4w12yv72t0m8grns' inline='true' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+  </document-format-change-manifest>
+  <connection class='federated'>
+    <named-connections>
+      <named-connection caption='tableau_task' name='excel-direct.14aaaoc0kq1kef115r9en0qraleh'>
+        <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/tops/Documents/My Tableau Repository/Datasources/2023.3/en_US-US/tableau_task.xlsx' interpretationMode='0' password='' server='' validate='no' />
+      </named-connection>
+    </named-connections>
+    <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.14aaaoc0kq1kef115r9en0qraleh' name='Sheet1' table='[Sheet1$]' type='table'>
+      <columns gridOrigin='A1:K10684:no:A1:K10684:0' header='yes' outcome='2'>
+        <column datatype='string' name='Airline' ordinal='0' />
+        <column datatype='string' name='Date_of_Journey' ordinal='1' />
+        <column datatype='string' name='Source' ordinal='2' />
+        <column datatype='string' name='Destination' ordinal='3' />
+        <column datatype='string' name='Route' ordinal='4' />
+        <column datatype='datetime' name='Dep_Time' ordinal='5' />
+        <column datatype='datetime' name='Arrival_Time' ordinal='6' />
+        <column datatype='string' name='Duration' ordinal='7' />
+        <column datatype='string' name='Total_Stops' ordinal='8' />
+        <column datatype='string' name='Additional_Info' ordinal='9' />
+        <column datatype='integer' name='Price' ordinal='10' />
+      </columns>
+    </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+    <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.14aaaoc0kq1kef115r9en0qraleh' name='Sheet1' table='[Sheet1$]' type='table'>
+      <columns gridOrigin='A1:K10684:no:A1:K10684:0' header='yes' outcome='2'>
+        <column datatype='string' name='Airline' ordinal='0' />
+        <column datatype='string' name='Date_of_Journey' ordinal='1' />
+        <column datatype='string' name='Source' ordinal='2' />
+        <column datatype='string' name='Destination' ordinal='3' />
+        <column datatype='string' name='Route' ordinal='4' />
+        <column datatype='datetime' name='Dep_Time' ordinal='5' />
+        <column datatype='datetime' name='Arrival_Time' ordinal='6' />
+        <column datatype='string' name='Duration' ordinal='7' />
+        <column datatype='string' name='Total_Stops' ordinal='8' />
+        <column datatype='string' name='Additional_Info' ordinal='9' />
+        <column datatype='integer' name='Price' ordinal='10' />
+      </columns>
+    </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+    <metadata-records>
+      <metadata-record class='capability'>
+        <remote-name />
+        <remote-type>0</remote-type>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias />
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='integer' name='context'>0</attribute>
+          <attribute datatype='string' name='gridOrigin'>&quot;A1:K10684:no:A1:K10684:0&quot;</attribute>
+          <attribute datatype='boolean' name='header'>true</attribute>
+          <attribute datatype='integer' name='outcome'>2</attribute>
+        </attributes>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Airline</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[Airline]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Airline</remote-alias>
+        <ordinal>0</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <collation flag='1' name='LEN_RUS_S2' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Date_of_Journey</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[Date_of_Journey]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Date_of_Journey</remote-alias>
+        <ordinal>1</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <collation flag='1' name='LEN_RUS_S2' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Source</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[Source]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Source</remote-alias>
+        <ordinal>2</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <collation flag='1' name='LEN_RUS_S2' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Destination</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[Destination]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Destination</remote-alias>
+        <ordinal>3</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <collation flag='1' name='LEN_RUS_S2' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Route</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[Route]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Route</remote-alias>
+        <ordinal>4</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <collation flag='1' name='LEN_RUS_S2' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Dep_Time</remote-name>
+        <remote-type>7</remote-type>
+        <local-name>[Dep_Time]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Dep_Time</remote-alias>
+        <ordinal>5</ordinal>
+        <local-type>datetime</local-type>
+        <aggregation>Year</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Arrival_Time</remote-name>
+        <remote-type>7</remote-type>
+        <local-name>[Arrival_Time]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Arrival_Time</remote-alias>
+        <ordinal>6</ordinal>
+        <local-type>datetime</local-type>
+        <aggregation>Year</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Duration</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[Duration]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Duration</remote-alias>
+        <ordinal>7</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <collation flag='1' name='LEN_RUS_S2' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Total_Stops</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[Total_Stops]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Total_Stops</remote-alias>
+        <ordinal>8</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <collation flag='1' name='LEN_RUS_S2' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Additional_Info</remote-name>
+        <remote-type>130</remote-type>
+        <local-name>[Additional_Info]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Additional_Info</remote-alias>
+        <ordinal>9</ordinal>
+        <local-type>string</local-type>
+        <aggregation>Count</aggregation>
+        <contains-null>true</contains-null>
+        <collation flag='1' name='LEN_RUS_S2' />
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+      <metadata-record class='column'>
+        <remote-name>Price</remote-name>
+        <remote-type>20</remote-type>
+        <local-name>[Price]</local-name>
+        <parent-name>[Sheet1]</parent-name>
+        <remote-alias>Price</remote-alias>
+        <ordinal>10</ordinal>
+        <local-type>integer</local-type>
+        <aggregation>Sum</aggregation>
+        <contains-null>true</contains-null>
+        <attributes>
+          <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+        </attributes>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_3439276392454C22B7270AB48F0697B6]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+      </metadata-record>
+    </metadata-records>
+  </connection>
+  <aliases enabled='yes' />
+  <column caption='Additional Info' datatype='string' name='[Additional_Info]' role='dimension' type='nominal' />
+  <column datatype='string' name='[Airline]' role='dimension' type='nominal' />
+  <column caption='Arrival Time' datatype='datetime' name='[Arrival_Time]' role='dimension' type='ordinal' />
+  <column aggregation='Count' caption='Calculation1' datatype='real' datatype-customized='true' name='[Calculation_804174032229670913]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='[Arrival_Time]-[Dep_Time]' />
+  </column>
+  <column caption='Date of Journey' datatype='string' name='[Date_of_Journey]' role='dimension' type='nominal' />
+  <column caption='Dep Time' datatype='datetime' name='[Dep_Time]' role='dimension' type='ordinal' />
+  <column datatype='string' name='[Destination]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+  <column caption='Price (copy)' datatype='integer' name='[Price (copy)_804174032231591938]' role='measure' type='quantitative'>
+    <calculation class='tableau' formula='[Price]' />
+  </column>
+  <column caption='city' datatype='string' name='[Route]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+  <column datatype='string' name='[Source]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+  <column caption='Total Stops' datatype='string' name='[Total_Stops]' role='dimension' type='nominal' />
+  <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_3439276392454C22B7270AB48F0697B6]' role='measure' type='quantitative' />
+  <column-instance column='[Airline]' derivation='None' name='[none:Airline:nk]' pivot='key' type='nominal' />
+  <group caption='Action (Additional Info,Airline,Total Stops)' hidden='true' name='[Action (Additional Info,Airline,Total Stops)]' name-style='unqualified' user:auto-column='sheet_link'>
+    <groupfilter function='crossjoin'>
+      <groupfilter function='level-members' level='[Additional_Info]' />
+      <groupfilter function='level-members' level='[Airline]' />
+      <groupfilter function='level-members' level='[Total_Stops]' />
+    </groupfilter>
+  </group>
+  <group caption='Action (Airline)' hidden='true' name='[Action (Airline)]' name-style='unqualified' user:auto-column='sheet_link'>
+    <groupfilter function='crossjoin'>
+      <groupfilter function='level-members' level='[Airline]' />
+    </groupfilter>
+  </group>
+  <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+  <style>
+    <style-rule element='mark'>
+      <encoding attr='color' field='[none:Airline:nk]' type='palette'>
+        <map to='#499894'>
+          <bucket>&quot;SpiceJet&quot;</bucket>
+        </map>
+        <map to='#4e79a7'>
+          <bucket>&quot;Air Asia&quot;</bucket>
+        </map>
+        <map to='#59a14f'>
+          <bucket>&quot;Jet Airways&quot;</bucket>
+        </map>
+        <map to='#86bcb6'>
+          <bucket>&quot;Trujet&quot;</bucket>
+        </map>
+        <map to='#8cd17d'>
+          <bucket>&quot;Jet Airways Business&quot;</bucket>
+        </map>
+        <map to='#a0cbe8'>
+          <bucket>&quot;Air India&quot;</bucket>
+        </map>
+        <map to='#b6992d'>
+          <bucket>&quot;Multiple carriers&quot;</bucket>
+        </map>
+        <map to='#e15759'>
+          <bucket>&quot;Vistara&quot;</bucket>
+        </map>
+        <map to='#f1ce63'>
+          <bucket>&quot;Multiple carriers Premium economy&quot;</bucket>
+        </map>
+        <map to='#f28e2b'>
+          <bucket>&quot;GoAir&quot;</bucket>
+        </map>
+        <map to='#ff9d9a'>
+          <bucket>&quot;Vistara Premium economy&quot;</bucket>
+        </map>
+        <map to='#ffbe7d'>
+          <bucket>&quot;IndiGo&quot;</bucket>
+        </map>
+      </encoding>
+    </style-rule>
+  </style>
+  <semantic-values>
+    <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+  </semantic-values>
+  <field-sort-info field-sort-order-type='custom-order'>
+    <field-sort-custom-order field='Airline' />
+    <field-sort-custom-order field='Date_of_Journey' />
+    <field-sort-custom-order field='Source' />
+    <field-sort-custom-order field='Destination' />
+    <field-sort-custom-order field='Route' />
+    <field-sort-custom-order field='Dep_Time' />
+    <field-sort-custom-order field='Calculation_804174032229670913' />
+    <field-sort-custom-order field='Calculation_804174032229187584' />
+    <field-sort-custom-order field='Arrival_Time' />
+    <field-sort-custom-order field='Duration' />
+    <field-sort-custom-order field='Total_Stops' />
+    <field-sort-custom-order field='Additional_Info' />
+    <field-sort-custom-order field='Price' />
+    <field-sort-custom-order field='Price (copy)_804174032231591938' />
+    <field-sort-custom-order field='Geometry (generated)' />
+    <field-sort-custom-order field='Latitude (generated)' />
+    <field-sort-custom-order field='Longitude (generated)' />
+    <field-sort-custom-order field=':Measure Names' />
+    <field-sort-custom-order field='Multiple Values' />
+  </field-sort-info>
+  <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    <objects>
+      <object caption='Sheet1' id='Sheet1_3439276392454C22B7270AB48F0697B6'>
+        <properties context=''>
+          <relation connection='excel-direct.14aaaoc0kq1kef115r9en0qraleh' name='Sheet1' table='[Sheet1$]' type='table'>
+            <columns gridOrigin='A1:K10684:no:A1:K10684:0' header='yes' outcome='2'>
+              <column datatype='string' name='Airline' ordinal='0' />
+              <column datatype='string' name='Date_of_Journey' ordinal='1' />
+              <column datatype='string' name='Source' ordinal='2' />
+              <column datatype='string' name='Destination' ordinal='3' />
+              <column datatype='string' name='Route' ordinal='4' />
+              <column datatype='datetime' name='Dep_Time' ordinal='5' />
+              <column datatype='datetime' name='Arrival_Time' ordinal='6' />
+              <column datatype='string' name='Duration' ordinal='7' />
+              <column datatype='string' name='Total_Stops' ordinal='8' />
+              <column datatype='string' name='Additional_Info' ordinal='9' />
+              <column datatype='integer' name='Price' ordinal='10' />
+            </columns>
+          </relation>
+        </properties>
+      </object>
+    </objects>
+  </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+</datasource>
